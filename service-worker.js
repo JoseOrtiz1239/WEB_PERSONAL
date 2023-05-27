@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "JoseOrtiz1239.github.io/portfolio/precache-manifest.0f1fe45327a0cb0ce529c5cadbdf15bd.js"
+  "JoseOrtiz1239.github.io/WEB_PERSONAL/precache-manifest.ef8cf6945b7c0c1d0c7e61648b012eb0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("JoseOrtiz1239.github.io/portfolio/index.html", {
+workbox.routing.registerNavigationRoute("JoseOrtiz1239.github.io/WEB_PERSONAL/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
